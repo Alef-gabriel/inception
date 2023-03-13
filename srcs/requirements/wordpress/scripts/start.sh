@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ls | grep -v start.sh | xargs rm -rf
 
 export WP_CLI_CACHE_DIR=/var/www/wordpress/.wp-cli/cache
